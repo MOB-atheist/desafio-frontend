@@ -3,6 +3,10 @@ import './styles.css'
 
 export default class Search extends Component {
     render() {
-        return <input></input>
+        return(
+            <div className>
+                <input />
+            </div>
+        )
     }
 }
