@@ -1,0 +1,37 @@
+.WeatherList {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.WeatherList h2 {
+    color: var(--light-text);
+    font-size: 2.5rem;
+    line-height: 1rem;
+}
+
+.WeatherList table {
+    display: inline;
+}
+
+.WeatherList table:first-child {
+    padding-right: 2rem;
+}
+
+.WeatherList th, .WeatherList td {
+    padding: 5px;
+}
+
+.WeatherList .side-tables table thead tr th{
+    text-align: left;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.WeatherList .side-tables table tbody tr td{
+    text-align: left;
+    font-weight: 700;
+    color: var(--text-color);
+    font-size: 0.9rem;
+    padding-bottom: 1rem;
+}
