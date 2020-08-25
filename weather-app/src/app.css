@@ -1,14 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;300;400;700&display=swap');
+
+:root{
+    --text-color: #232323;
+    --default-font: Open Sans;
+    --default-background: linear-gradient(180deg, rgba(240,126,5,1) 0%, rgba(244,186,2,1) 100%);
+    --light-text: #fff;
+    --input-background: #fff;
+    --input-border: rgb(240,126,5);
+    --input-border-focus: rgb(255 131 0);
+}
 
 body {
-    background: linear-gradient(180deg, rgba(240,126,5,1) 0%, rgba(244,186,2,1) 100%);
+    background: var(--default-background);
     background-attachment: fixed;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--default-font);
 }
 
 .container {
-    width: 50%;/* Takes half the screen */
+    width: 45%;/* Takes half the screen */
     /* Center container */
     margin-right: auto; 
     margin-left: auto;
@@ -17,7 +27,15 @@ body {
 .container-title {
     padding-top: 15px;
     text-align: center;
-    color: #ffffff;
+    color: var(--light-text);
     font-weight: 700;
-    font-size: 3em;
+    font-size: 4em;
+    padding-bottom: 0.5rem;
+}
+
+.line-break{
+    padding: 1rem;
+    display: block;
+    border-bottom:1px solid #fff;
+    width: 100%;
 }
