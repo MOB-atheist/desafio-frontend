@@ -9,8 +9,9 @@ function App() {
 			<h1 className="container-title" >
 				Previsão do tempo
 			</h1>
-			<Search />
 			<WeatherWidget />
+			<Search />
+			<span className="line-break" />
 			<WeatherList />
 		</div>
 	);
