@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+body {
+    background: linear-gradient(180deg, rgba(240,126,5,1) 0%, rgba(244,186,2,1) 100%);
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 50%;/* Takes half the screen */
+    /* Center container */
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+.container-title {
+    padding-top: 15px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 3em;
+}
