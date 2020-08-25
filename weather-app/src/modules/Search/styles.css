@@ -1,0 +1,45 @@
+.SearchModule {
+    width: 80%;
+    padding-bottom: 1rem;
+    margin: auto auto;
+    position: relative;
+}
+
+.SearchModule input {
+    font-family: var(--default-font);
+    font-size: 1.5rem;
+    font-weight: 100;
+    width: 100%;
+    height: 4rem;
+    color: var(--text-color);
+    background-color: var(--input-background);
+    margin: 0;
+    padding: 0 1rem;
+    border-width: 1px;
+    border-style: outset;
+    border-color: var(--input-border);
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.SearchModule input:focus {
+    outline-style: solid;
+    outline-color: var(--input-border-focus);
+    outline-width: 2px;
+    outline-offset: 0;
+}
+
+.SearchModule::after {
+    content: '';
+    background: url('./search.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0.8rem;
+    width: 2rem;
+    height: 2rem;
+}
