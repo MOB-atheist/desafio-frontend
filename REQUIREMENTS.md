@@ -1,8 +1,9 @@
 # Study of requirements
 
 ## color
- - Base color: Vertical gratient from top,`#f07e05` to `#f4ba02` (Hexadecimal).
+ - Background color: Vertical gratient from top,`#f07e05` to `#f4ba02` (Hexadecimal).
  - Highlighted **text** and **icons** `#f29906`.
+ - General **text** color `#46371E`
  
 ## Used fonts.
 - **Title**: Open sans *bold 700*.
